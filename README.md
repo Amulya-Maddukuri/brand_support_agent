@@ -1,18 +1,11 @@
-# Hiver SDE Intern - AI Support Agent
+ AI Support Agent
 
-This project is an AI based customer support agent built using the Customer Support on Twitter dataset.
 
-For this project I selected AmazonHelp as the brand. The agent takes a customer message, identifies the issue, finds similar historical support interactions, generates a reply based on that evidence, and decides whether the request should be handled automatically or escalated to a human.
 
 1. Brand Selection
 
 I selected AmazonHelp after comparing different support accounts in the dataset.
 
-I mainly looked at the number of support interactions, conversation length and the percentage of multi-turn conversations.
-
-AmazonHelp had around 82K reconstructable conversations, with an average of about 4.5 tweets per conversation and around 62% multi-turn conversations.
-
-This made AmazonHelp a good choice because there is enough historical conversation data to use for retrieval.
 
 2. Dataset
 
@@ -248,7 +241,7 @@ The output contains the predicted intent, confidence, retrieved evidence, genera
 
 18. Project Structure
 
-hiver-support-agent/
+support-agent/
 ├── README.md
 ├── REPORT.md
 ├── DECISION_LOG.md
